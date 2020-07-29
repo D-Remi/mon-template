@@ -1,0 +1,69 @@
+/*
+Theme Name: Theme Airvault
+Description: Theme du Projet Cimenterie d'airvault
+Author: Rémi - SEPPA
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+    0. 	CSS General
+    1.  CSS Header
+	
+----------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. CSS General
+/* -------------------------------------------------------------------------- */
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. CSS Header
+/* -------------------------------------------------------------------------- */
+
+.entry-header{
+    border-top: 2px solid #00f;
+    border-bottom: 2px solid #00f;
+}
+
+
+.entry-header-nav{
+    border-top: 2px solid #F7A600;
+    border-bottom: 2px solid #F7A600;
+}
+.entry-header-nav strong{
+    font-size: 20px;
+}
+.entry-header-nav strong{
+font-weight: bold;
+}
+
+body header nav ul li {
+    list-style: none;
+    display: inline-block!important;
+}
+
+body header nav ul li a  {
+    color:#434343!important;
+}
+
+.entry-header-title{
+    margin-left:10%;
+    padding-top:20%;
+    padding-left: 20%;
+}
+
+.entry-header-title-button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 20%;
+}
